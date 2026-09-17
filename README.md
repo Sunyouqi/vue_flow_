@@ -39,4 +39,14 @@ npm run dev
 
 ```sh
 npm run build
+
+<StcSystem id="1" serializationBase="true"
+InSimulationMode="False"
+UseSmbMessaging="FALSE"
+ApplicationName="TestCenter"
+TSharkPath=""
+Active="TRUE"
+LocalActive="TRUE"
+Name="StcSystem 1">
+
 ```
