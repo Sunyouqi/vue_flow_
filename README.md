@@ -588,5 +588,460 @@ npm run build
      NextWwn="20:00:10:85:00:00:00:01"
      WwnIncrement="00:00:00:00:00:00:00:01"
      UseForDeviceGenConfigExpand="TRUE"
-
+     UseForDeviceGenConfigExpand="TRUE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="DeviceAddrOptions 1">
+    </DeviceAddrOptions>
+    <Ieee80211PhyOptions id="5628" 
+     SelectedRegion="USA"
+     AutoConnect="FALSE"
+     ScanDuration="10"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Ieee80211PhyOptions 1">
+    </Ieee80211PhyOptions>
+    <PhyOptions id="5629" 
+     EnableCompensationMode="FALSE"
+     Enable8023brSwitch="FALSE"
+     EnableL1RegisterAccess="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="PhyOptions 1">
+    </PhyOptions>
+    <TestResultSetting id="5630" 
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="TestResultSetting 1">
+    </TestResultSetting>
+    <PortOptions id="5631" 
+     ReleaseMode="FULL_RESET"
+     AggregatorResult="AGGREGATED"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Port Options 1">
+    </PortOptions>
+    <RealismOptions id="5632" 
+     RealismMode="NORMAL"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Realism Options 1">
+    </RealismOptions>
+    <TrafficOptions id="5633" 
+     TrafficStartMode="ASYNCHRONOUS"
+     TrafficStartInterval="0"
+     TrafficStartIntervalUnit="UNITOF64US"
+     TrafficStreamIDStartIndex="1"
+     DeleteInactiveStreamsFromMemory="FALSE"
+     EnableGlobalAnalyzerPreload="FALSE"
+     TSharkPath="None"
+     ExcludeEthernetFcs="TRUE"
+     SmoothenRandomLength="FALSE"
+     UniqueRandomLengthSeedPerPort="FALSE"
+     EnableTxQueueFullRetryMode="TRUE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="TrafficOptions 1">
+    </TrafficOptions>
+    <GroupHistogram id="5634" 
+     ActiveGroupHistogramMode="DISABLED_MODE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Group Histogram 1">
+    </GroupHistogram>
+    <ResultOptions id="5635" 
+     ResultViewMode="BASIC"
+     ColumnFilterMode="BASIC"
+     ShowWarningMessage="TRUE"
+     StopTrafficBeforeClearingResults="FALSE"
+     StopAnalyzerBeforeClearingResults="FALSE"
+     SyncClearResults="FALSE"
+     TimedRefreshResultViewMode="MANUAL"
+     TimedRefreshInterval="10"
+     CollectStrayFrame="FALSE"
+     PreambleByteLength="8"
+     IfgByteLength="12"
+     JitterMode="RFC3393ABSOLUTEVALUE"
+     DeleteAllAnalyzerStreams="FALSE"
+     SaveAtEotProperties=""
+     TxPortExpectMCastTrafficSentFromSelf="FALSE"
+     SaveOnlyCountersFromResultViewMode="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="ResultOptions 1">
+    </ResultOptions>
+    <LabelBindingGlobalConfig id="5636" 
+     SubscriptionInterval="5"
+     LabelResolutionMode="PER_SESSION_LABEL_RESOLUTION"
+     SelectDeactivedTunnelForData="TRUE"
+     EnableTransmitUnresolvedStream="TRUE"
+     EnableStaticPwAttachmentGroupId="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="LabelBindingGlobalConfig 1">
+    </LabelBindingGlobalConfig>
+    <MplsTpGlobalConfig id="5637" 
+     FMChannelType="88"
+     PWChannelType="34"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="MplsTpGlobalConfig 1">
+    </MplsTpGlobalConfig>
+    <L2LearningConfig id="5638" 
+     Rate="1000"
+     RepeatCount="3"
+     LearningStartDelay="1"
+     L2FrameSize="SAME_AS_STREAM"
+     L2FrameSizeFixed="128"
+     EncapOption="USE_TX_ENCAP"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="L2LearningConfig 1">
+    </L2LearningConfig>
+    <ArpNdConfig id="5639" 
+     LearningRate="250"
+     MaxBurst="16"
+     EnableCyclicArp="TRUE"
+     DuplicateGatewayDetection="TRUE"
+     RetryCount="3"
+     TimeOut="1000"
+     EnableUniqueMacAddrInReply="FALSE"
+     EnableUniqueMacPattern="2222"
+     ProcessGratuitousArpRequests="TRUE"
+     UpdateDestMacUponNonGratuitousArpRequestsReceived="FALSE"
+     ProcessUnsolicitedArpReplies="TRUE"
+     EnableAutoArp="FALSE"
+     ApplyConfiguredGatewayMac="FALSE"
+     SetArpNdNoExpire="FALSE"
+     IgnoreFailures="TRUE"
+     UseLinkLocalAddrForNeighborDiscovery="FALSE"
+     UseConfiguredLinkLocalAddrForNeighborDiscovery="FALSE"
+     UseLinklayerCacheInStack="FALSE"
+     UseGatewayForTarget="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="ArpNdConfig 1">
+    </ArpNdConfig>
+    <BgpGlobalConfig id="5640" 
+     SequentialStartup="DISABLE"
+     StaggerOpen="100"
+     StaggerClose="100"
+     ConnectionRetryInterval="30"
+     ConnectionRetryCount="100"
+     UpdateCount="2000"
+     UpdateDelay="1"
+     VplsDraftVersion="VERSION_VPLS_4761"
+     ScalabilityMode="NORMAL"
+     EnableTcpNoDelay="FALSE"
+     EnablePackUpdates="TRUE"
+     TxTcpBufferSize="TCPBUFFER_32KB"
+     RxTcpBufferSize="TCPBUFFER_32KB"
+     TcpMaxSegmentSize="1460"
+     EnableStraightforwardUpdate="FALSE"
+     IgnoreAttributeErrors="FALSE"
+     MvpnAutoAdvertiseDelay="1000"
+     IsEvpnIRB="FALSE"
+     EvpnIRBMode="ASYMMETRIC"
+     NextHopFilterMode="DISABLED"
+     EnableDiscardUpdates="FALSE"
+     DisablePathMtuDiscovery="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="BgpGlobalConfig 1">
+      <BgpSrGlobalConfig id="5641" 
+       SrDraftVersion="VERSION_00"
+       Srv6DraftVersion="VERSION_04"
+       PrefixSidAttrType="40"
+       Srv6TlvType="4"
+       SrVpnTrafficBindingKey="RD"
+       Active="TRUE"
+       LocalActive="TRUE"
+       Name="BgpSrGlobalConfig 1">
+        <BgpSrGlobalBlock id="5642" 
+         BlockBase="16000"
+         BlockRange="1000"
+         Active="TRUE"
+         LocalActive="TRUE"
+         Name="BgpSrGlobalBlock 1">
+        </BgpSrGlobalBlock>
+      </BgpSrGlobalConfig>
+    </BgpGlobalConfig>
+    <PimGlobalConfig id="5643" 
+     TriggerHelloDelay="5"
+     EnablingPruningDelayOption="FALSE"
+     Tbit="FALSE"
+     LanPruneDelay="500"
+     OverrideInterval="2500"
+     EnablePackGroupRecord="TRUE"
+     EnableMsgRate="FALSE"
+     MsgRate="100"
+     MsgInterval="1"
+     DisableHelloExpireTimer="FALSE"
+     DisableHelloRxInNeighborState="FALSE"
+     DisableIncomingMsgProcessing="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="PimGlobalConfig 1">
+    </PimGlobalConfig>
+    <IsisGlobalConfig id="5644" 
+     ScalabilityMode="NORMAL"
+     UseSameSrgb="FALSE"
+     SrmsPreferenceSubTlvType="24"
+     Srv6CapabilitySubTlvType="25"
+     Srv6LocatorTlvType="27"
+     Srv6EndSidSubTlvType="5"
+     Srv6EndXSidSubTlvType="43"
+     Srv6LanEndXSidSubTlvType="44"
+     SrNodeMsdSubTlvType="23"
+     SrLinkMsdSubTlvType="15"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="IsisGlobalConfig 1">
+    </IsisGlobalConfig>
+    <IsisPlsbGlobalConfig id="5645" 
+     PlsbNlpid="143"
+     PlsbInstanceTlvType="180"
+     PlsbIsidAddrTlvType="181"
+     PlsbLinkMetricSubTlvType="17"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="IsisPlsbGlobalConfig 1">
+    </IsisPlsbGlobalConfig>
+    <OtvOptions id="5646" 
+     UnicastOnlyTransport="FALSE"
+     OverlayEncapMode="MPLS_GRE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="OTV Project-Level Options 1">
+    </OtvOptions>
+    <VxlanGlobalConfig id="5647" 
+     EnableVxlanScale="TRUE"
+     EnableTrafficScaleForEvpnLearning="FALSE"
+     EnableVxlanFlowBasedTraffic="FALSE"
+     EnableEvpnOverlayIRB="FALSE"
+     EvpnOverlayIRBMode="ASYMMETRIC"
+     DiscardEvpnLearning="FALSE"
+     EnableDRVForVxlanBindings="FALSE"
+     EnableEvpnType5VA="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="VxlanGlobalConfig 1">
+    </VxlanGlobalConfig>
+    <PcepGlobalConfig id="5648" 
+     SessionOutStanding="100"
+     SessionRetryCount="5"
+     SessionRetryInterval="10"
+     LSPPerMessage="100"
+     TCPInterval="500"
+     PacketAlignToMTU="FALSE"
+     EnableTCPNoDelay="FALSE"
+     UseSRDraft5="FALSE"
+     AssociationTypeListTlvType="200"
+     PpagAssociationType="100"
+     PpagTlvType="100"
+     PathSegmentTlvType="80"
+     PathBindingTlvType="81"
+     ScaleMode="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="PcepGlobalConfig 1">
+    </PcepGlobalConfig>
+    <Ieee8021asGlobalConfig id="5649" 
+     ManagementId="12292"
+     TlvType="32772"
+     SlaveInfoSetCount="1"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Ieee8021asGlobalConfig 1">
+    </Ieee8021asGlobalConfig>
+    <Dhcpv4Options id="5650" 
+     TrafficBehavior="REQUIRE_ALL_SESSIONS_BOUND"
+     EnableServerRouting="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Dhcpv4Options 1">
+    </Dhcpv4Options>
+    <Dhcpv6Options id="5651" 
+     TrafficBehavior="REQUIRE_ALL_SESSIONS_BOUND"
+     EnableServerRouting="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Dhcpv6Options 1">
+    </Dhcpv6Options>
+    <PppoxOptions id="5652" 
+     TrafficBehavior="REQUIRE_ALL_SESSIONS_CONNECTED"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="PppoxOptions 1">
+    </PppoxOptions>
+    <CuspGlobalConfig id="5653" 
+     SessionRetryCount="10"
+     SessionRetryInterval="10"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="CuspGlobalConfig 1">
+    </CuspGlobalConfig>
+    <MplsTpOamGlobalConfig id="5654" 
+     LmrRxFCfStart="1"
+     LmrRxFCfStep="1"
+     LmrTxFCbStart="1"
+     LmrTxFCbStep="1"
+     LmmTxFCfOffset="0"
+     LmrRxFCfOffset="0"
+     LmrTxFCbOffset="0"
+     CcOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LbmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LbrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     TstOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;proto1&quot;
+pdu=&quot;MPLSTPOAMTLV:TestTLV&quot;&gt;&lt;Length&gt;0040&lt;/Length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     ChannelType="8902"
+     EchoTlvsInLmr="FALSE"
+     EchoTlvsInDmr="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="MplsTpOamGlobalConfig 1">
+    </MplsTpOamGlobalConfig>
+    <EoamGlobalConfig id="5655" 
+     DmCommonTimeSource="FALSE"
+     LmrRxFCfStart="1"
+     LmrRxFCfStep="1"
+     LmrTxFCbStart="1"
+     LmrTxFCbStep="1"
+     LmmTxFCfOffset="0"
+     LmrRxFCfOffset="0"
+     LmrTxFCbOffset="0"
+     SlrTxFCbStart="1"
+     SlrTxFCbStep="1"
+     SlmTxFCfOffset="0"
+     SlrTxFCbOffset="0"
+     CcOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LbmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LbrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LtmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;proto1&quot;
+pdu=&quot;EOAMTLV:LTMEgrID&quot;&gt;&lt;Length&gt;0000&lt;/Length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LtrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;proto1&quot;
+pdu=&quot;EOAMTLV:LTREgrID&quot;&gt;&lt;Length&gt;0000&lt;/Length&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;RplyEgr_1&quot;
+pdu=&quot;EOAMTLV:RplyEgr&quot;&gt;&lt;Length&gt;0000&lt;/Length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     DmmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     DmrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LmmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     LmrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     SlmOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     SlrOptionalTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus
+/&gt;&lt;/config&gt;&lt;/frame&gt;"
+     ResultTimeUnit="MILLISECONDS"
+     TestModeType="NORMAL"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="EoamGlobalConfig 1">
+    </EoamGlobalConfig>
+    <VqAnalyzerOptions id="5656" 
+     SamplingPeriod="10"
+     DatabaseFileName="vqAnalyzerTest.db"
+     AppendDateTime="TRUE"
+     EnableEotDatabase="TRUE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="VqAnalyzerOptions 1">
+    </VqAnalyzerOptions>
+    <ExternalDeviceOption id="5657" 
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="ExternalDeviceOption 1">
+    </ExternalDeviceOption>
+    <Dot1xOptions id="5783" 
+     TrafficStartOption="REQUIRE_ALL_SUPPLICANT_AUTH"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="Dot1xOptions 1">
+    </Dot1xOptions>
+    <VicGlobalConfig id="5784" 
+     OpenRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;ccc1&quot;
+pdu=&quot;VICTLV:CtrlChanCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;mta1&quot;
+pdu=&quot;VICTLV:MsgTypeArrayTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;rlc1&quot;
+pdu=&quot;VICTLV:ResourceLimitCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;ec1&quot;
+pdu=&quot;VICTLV:EthernetCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;fc1&quot;
+pdu=&quot;VICTLV:FcoeCapTLV&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     CreateRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;pi1&quot;
+pdu=&quot;VICTLV:ProvisioningInfoTLV&quot;&gt;&lt;Type&gt;12&lt;/Type&gt;&lt;Length&gt;0&lt;/Length&gt;&lt;ProvisioningInfoTypeSpace&gt;00000C&lt;/ProvisioningInfoTypeSpace&gt;&lt;Info&gt;&lt;ProvList
+name=&quot;ProvList_0&quot;&gt;&lt;Fixed&gt;&lt;NumOfTlvs&gt;0&lt;/NumOfTlvs&gt;&lt;SubTlvs&gt;&lt;FixedSubTlvList
+name=&quot;FixedSubTlvList_0&quot;&gt;&lt;ProfileNameTlv&gt;&lt;Type&gt;1&lt;/Type&gt;&lt;Length&gt;0&lt;/Length&gt;&lt;/ProfileNameTlv&gt;&lt;/FixedSubTlvList&gt;&lt;FixedSubTlvList
+name=&quot;FixedSubTlvList_1&quot;&gt;&lt;vNicUuidTlv&gt;&lt;Type&gt;2&lt;/Type&gt;&lt;Length&gt;0&lt;/Length&gt;&lt;/vNicUuidTlv&gt;&lt;/FixedSubTlvList&gt;&lt;/SubTlvs&gt;&lt;/Fixed&gt;&lt;/ProvList&gt;&lt;/Info&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     EnableRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     SpirentOpenRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;ccc1&quot;
+pdu=&quot;VICTLV:CtrlChanCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;mta1&quot;
+pdu=&quot;VICTLV:MsgTypeArrayTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;rlc1&quot;
+pdu=&quot;VICTLV:ResourceLimitCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;ec1&quot;
+pdu=&quot;VICTLV:EthernetCapTLV&quot;&gt;&lt;/pdu&gt;&lt;pdu
+name=&quot;fc1&quot;
+pdu=&quot;VICTLV:FcoeCapTLV&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     SpirentCreateRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu
+name=&quot;pi1&quot;
+pdu=&quot;VICTLV:ProvisioningInfoTLV&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     SpirentEnableRequestTlvs="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="VIC 1">
+    </VicGlobalConfig>
+    <MsdpGlobalConfig id="5785" 
+     SessionOutstanding="100"
+     SessionRetryCount="5"
+     SessionRetryInterval="10"
+     SourceActiveAdvertisementTimer="60"
+     SourceActiveStateTimer="100"
+     PacketAlignToMTU="FALSE"
+     ScaleMode="FALSE"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="MsdpGlobalConfig 1">
+    </MsdpGlobalConfig>
+    <OamFlexeGlobalConfig id="5786" 
+     CodeO="75"
+     CodeC="12"
+     BasType="1"
+     ApsType="2"
+     CvType="17"
+     DmType="18"
+     DmmType="19"
+     DmmrType="20"
+     CsType="21"
+     Active="TRUE"
+     LocalActive="TRUE"
+     Name="OamFlexeGlobalConfig 1">
+    </OamFlexeGlobalConfig>
+    <ResultDataSet id="5787" 
+     PrimaryClass="Port"
+     InternalXmlFormatString=""
+     ResultFilterMode="1"
+     ResultViewDataOutput="FALSE"
+     PageNumber="1"
+     RecordsPerPage="100"
+     NotifyInterval="1000"
+     Identifier="Port Traffic\Basic Traffic Results"
+ 
 ```
