@@ -77,8 +77,40 @@ function closeContextMenu() {
   contextMenu.value = null
 }
 
+function handleConnectable(connection: Connection) {
+  const edges = getEdges.value
+  console.log('edges:', edges)
+  const isSourceOccupied = edges.some(
+    (edge) =>
+      (edge.source === connection.source &&
+        edge.sourceHandle === connection.sourceHandle) ||
+      (edge.target === connection.source &&
+        edge.targetHandle === connection.sourceHandle)
+  )
+  const isTargetOccupied = edges.some(
+    (edge) =>
+      (edge.target === connection.target &&
+        edge.targetHandle === connection.targetHandle) ||
+      (edge.source === connection.target &&
+        edge.sourceHandle === connection.targetHandle)
+  )
+  console.log(
+    'isSourceOccupied:',
+    isSourceOccupied,
+    'isTargetOccupied:',
+    isTargetOccupied
+  )
+  return !isSourceOccupied && !isTargetOccupied
+}
+  
 function onConnect(connection: Connection) {
-  if (connection.source && connection.target) addEdges(connection)
+  console.log('onConnect:', connection)
+
+  const connectable = handleConnectable(connection)
+  console.log('connectable:', connection)
+  if (connection.source && connection.target && connectable) {
+    addEdges(connection)
+  }
 }
 
 function dragStart(event: DragEvent, kind: DeviceKind | 'port') {
