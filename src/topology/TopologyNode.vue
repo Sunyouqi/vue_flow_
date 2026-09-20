@@ -28,7 +28,7 @@ const emit = defineEmits<{
 }>()
 
 const portStyle = (index: number) => ({
-  top: `${24 + index * 25}px`,
+  top: `${8 + index * 10}px`,
 })
 
 const leftPorts = computed(() => (props.data.ports ?? []).filter((port) => port.side === 'left'))
