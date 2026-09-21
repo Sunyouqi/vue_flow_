@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logic_environment>
+  <parameters>
+    <parameter name="guid" value="dbdcb79f-f971-8dc0-a936-695e0f79af6b" />
+    <parameter name="remark" value="" />
+    <parameter name="objname" value="ssh_test_env" />
+    <parameter name="class" value="Env" />
+  </parameters>
+  <devices>
+    <device>
+      <parameters>
+        <parameter name="guid" value="378fa40702e443a9b3607f68c5f62b3c" />
+        <parameter name="ip" value="120.91.31.18" />
+        <parameter name="position" value="770,300,64,64" />
+        <parameter name="username" value="poctest" />
+        <parameter name="password" value="Huawei@123" />
+        <parameter name="objname" value="CE6863" />
+        <parameter name="class" value="Ne" />
+        <parameter name="icon" value="Ne" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="version" value="" />
+        <parameter name="remark" value="" />
+        <parameter name="is_topo" value="" />
+        <parameter name="realtype" value="" />
+        <parameter name="type" value="Ne" />
+        <parameter name="pypackage" value="" />
+        <parameter name="pyclass" value="" />
+        <parameter name="alias" value="" />
+        <parameter name="caption" value="" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="port" value="22" />
+        <parameter name="fullclass" value="Ne" />
+      </parameters>
+      <devices>
+        <device>
+          <parameters>
+            <parameter name="guid" value="c7e72cd9e23a46e282d52804eda16818" />
+            <parameter name="objname" value="10GE1/0/1" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="fullclass" value="Ne::Port" />
+          </parameters>
+        </device>
+        <device>
+          <parameters>
+            <parameter name="guid" value="68b1ffa8c188494c911c3c3df700c0a9" />
+            <parameter name="objname" value="10GE1/0/21_vlanif200" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="fullclass" value="Ne::Port" />
+          </parameters>
+        </device>
+      </devices>
+    </device>
+    <device>
+      <parameters>
+        <parameter name="guid" value="b908325a56d24e538f30acf716fa6287" />
+        <parameter name="ip" value="120.91.31.19" />
+        <parameter name="position" value="1374,130,64,64" />
+        <parameter name="username" value="poctest" />
+        <parameter name="password" value="Huawei@123" />
+        <parameter name="objname" value="CE6881H" />
+        <parameter name="class" value="Ne" />
+        <parameter name="icon" value="Ne" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="version" value="" />
+        <parameter name="remark" value="" />
+        <parameter name="is_topo" value="" />
+        <parameter name="realtype" value="" />
+        <parameter name="type" value="Ne" />
+        <parameter name="pypackage" value="" />
+        <parameter name="pyclass" value="" />
+        <parameter name="alias" value="" />
+        <parameter name="caption" value="" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="port" value="22" />
+        <parameter name="fullclass" value="Ne" />
+      </parameters>
+      <devices>
+        <device>
+          <parameters>
+            <parameter name="guid" value="7907bff084a34048b3c0aae7c4b817cf" />
+            <parameter name="objname" value="10GE1/0/1" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="fullclass" value="Ne::Port" />
+          </parameters>
+        </device>
+        <device>
+          <parameters>
+            <parameter name="guid" value="36c6dcf91be048a4ad2ca04f7ff07eff" />
+            <parameter name="objname" value="10GE1/0/21_vlanif100" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="fullclass" value="Ne::Port" />
+          </parameters>
+        </device>
+      </devices>
+    </device>
+    <device>
+      <parameters>
+        <parameter name="guid" value="6f0e80821e054a15bd77a3a3c8e0887c" />
+        <parameter name="ip" value="120.91.14.101" />
+        <parameter name="position" value="1310,700,64,64" />
+        <parameter name="objname" value="Spirent" />
+        <parameter name="class" value="Atm" />
+        <parameter name="icon" value="Atm" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="version" value="" />
+        <parameter name="username" value="" />
+        <parameter name="password" value="" />
+        <parameter name="remark" value="" />
+        <parameter name="type" value="tester" />
+        <parameter name="pypackage" value="" />
+        <parameter name="pyclass" value="" />
+        <parameter name="alias" value="" />
+        <parameter name="caption" value="" />
+        <parameter name="is_topo" value="" />
+        <parameter name="realtype" value="" />
+        <parameter name="shape" value="RectFrame" />
+        <parameter name="fullclass" value="Atm" />
+      </parameters>
+      <devices>
+        <device>
+          <parameters>
+            <parameter name="guid" value="53f7c13e5b634cf99beb95989d6c9488" />
+            <parameter name="objname" value="Tport_//2/3" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="Etherent 10Gig Fiber" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="pid" value="4/1" />
+            <parameter name="fullclass" value="Atm::Port" />
+          </parameters>
+        </device>
+        <device>
+          <parameters>
+            <parameter name="guid" value="4cb6128466374b28bcc973f14b5b2f18" />
+            <parameter name="objname" value="Tport_//2/4" />
+            <parameter name="class" value="Port" />
+            <parameter name="icon" value="Port" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="remark" value="" />
+            <parameter name="ip" value="" />
+            <parameter name="type" value="Etherent 10Gig Fiber" />
+            <parameter name="version" value="" />
+            <parameter name="pypackage" value="" />
+            <parameter name="pyclass" value="" />
+            <parameter name="alias" value="" />
+            <parameter name="caption" value="" />
+            <parameter name="is_topo" value="" />
+            <parameter name="realtype" value="" />
+            <parameter name="username" value="" />
+            <parameter name="password" value="" />
+            <parameter name="shape" value="RectFrame" />
+            <parameter name="pid" value="4/2" />
+            <parameter name="fullclass" value="Atm::Port" />
+          </parameters>
+        </device>
+      </devices>
+    </device>
+  </devices>
+  <links>
+    <link>
+      <parameter name="guid" value="8cbe07f7b5ad456aa7ce7015c1127546" />
+      <parameter name="remark" value="" />
+      <parameter name="objname" value="10GE1/0/1__10GE1/0/1" />
+      <parameter name="sourcedeviceid" value="7907bff084a34048b3c0aae7c4b817cf" />
+      <parameter name="targetdeviceid" value="c7e72cd9e23a46e282d52804eda16818" />
+      <parameter name="class" value="Connect" />
+      <parameter name="sourcetopdevicename" value="10GE1/0/1" />
+      <parameter name="targettopdevicename" value="10GE1/0/1" />
+      <parameter name="position" value="770,300;1374,130" />
+      <parameter name="shape" value="BeelineConnector" />
+      <parameter name="sourcedevicelevelids" value="" />
+      <parameter name="targetdevicelevelids" value="" />
+    </link>
+    <link>
+      <parameter name="guid" value="7eb88cf4dbb049398b8964c6a0a7cc3d" />
+      <parameter name="remark" value="" />
+      <parameter name="objname" value="Tport_//2/3__10GE1/0/21_vlanif200" />
+      <parameter name="sourcedeviceid" value="53f7c13e5b634cf99beb95989d6c9488" />
+      <parameter name="targetdeviceid" value="68b1ffa8c188494c911c3c3df700c0a9" />
+      <parameter name="class" value="Connect" />
+      <parameter name="sourcetopdevicename" value="Tport_//2/3" />
+      <parameter name="targettopdevicename" value="10GE1/0/21_vlanif200" />
+      <parameter name="position" value="770,300;1310,700" />
+      <parameter name="shape" value="BeelineConnector" />
+      <parameter name="sourcedevicelevelids" value="" />
+      <parameter name="targetdevicelevelids" value="" />
+    </link>
+    <link>
+      <parameter name="guid" value="9d1c29379aa1433584145086a1b329e2" />
+      <parameter name="remark" value="" />
+      <parameter name="objname" value="Tport_//2/4__10GE1/0/21_vlanif100" />
+      <parameter name="sourcedeviceid" value="4cb6128466374b28bcc973f14b5b2f18" />
+      <parameter name="targetdeviceid" value="36c6dcf91be048a4ad2ca04f7ff07eff" />
+      <parameter name="class" value="Connect" />
+      <parameter name="sourcetopdevicename" value="Tport_//2/4" />
+      <parameter name="targettopdevicename" value="10GE1/0/21_vlanif100" />
+      <parameter name="position" value="1374,130;1310,700" />
+      <parameter name="shape" value="BeelineConnector" />
+      <parameter name="sourcedevicelevelids" value="" />
+      <parameter name="targetdevicelevelids" value="" />
+    </link>
+  </links>
+</logic_environment>
